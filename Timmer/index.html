@@ -1,20 +1,26 @@
-﻿<html xmlns="http://www.w3.org/1999/xhtml">
+﻿<html xmlns='http://www.w3.org/1999/xhtml'>
 <head>
     <title>Timer</title>
-    <script src="timer.js"></script>
-    <script src="index.js"></script>
-    
-    <link rel="stylesheet" type="text/css" href="ButtonStyle.css">
+    <script src='timer.js'></script>
+    <script src='index.js'></script>  
+    <link rel='stylesheet' type='text/css' href='ButtonStyle.css'>
 </head>
-<body onload="ready()">
+<body>
     <br />
     <div >
         <div>
-            <button id='startbtn'>Start</button>
-            <button id='resetbtn'>Resume</button>
+            <button class='ctrlbtn' id='startbtn'>Start</button>
+            <button class='ctrlbtn' id='stopbtn'>Stop</button>
         </div>
+        <br/>
+        <div>
+            <input class='inpgoal' id='hourinp' type='text'>
+            <input class='inpgoal' id='mininp' type='text'>
+            <input class='inpgoal' id='secinp' type='text'>
+            <button class='ctrlbtn' id='okbtn'>OK</button>
+        </div>        
         <br />
-        <p id="time">00.00.00</p>
+        <p id='time'>00:00:00</p>
         <br />
     </div>
 </body>

@@ -1,4 +1,4 @@
-﻿button {
+﻿.ctrlbtn {
     background: #d93470;
     background-image: -webkit-linear-gradient(top, #d93470, #992940);
     background-image: -moz-linear-gradient(top, #d93470, #992940);
@@ -16,7 +16,7 @@
     outline: none;
 }
 
-    button:hover {
+    .ctrlbtn:hover {
         background: #f0300e;
         background-image: -webkit-linear-gradient(top, #f0300e, #eb1111);
         background-image: -moz-linear-gradient(top, #f0300e, #eb1111);
@@ -34,4 +34,9 @@ p {
 
 div {
     text-align: center;
+}
+
+.inpgoal {
+    width: 40px;
+    height: 40px;
 }

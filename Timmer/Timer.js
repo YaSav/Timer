@@ -1,12 +1,16 @@
 ﻿var Timer = function () {
-    startTime = 0;
-    allTime = 0;
+    var startTime = 0;
+    var allTime = 0;
+    var goalTime = 0;
     isActive = false;
+    isReached = false;
 
-    this.reset = function () {
+    this.stop = function () {
         isActive = false;
+        isReached = false;
         startTime = 0;
         allTime = 0;
+        goalTime = 0;
     }
 
     this.start = function () {
@@ -28,7 +32,18 @@
     }
 
     this.getMiliseconds = function () {
-        return allTime + Date.now() - startTime;
+        var time = allTime + Date.now() - startTime;
+        if (time > goalTime && goalTime!==0) {
+            isReached = true;
+            alert('Syka');
+        }
+        return time;
     }
+
+    this.setGoalTime = function (time) {
+        goalTime = time;
+        alert(goalTime)
+    }
+
 
 }
