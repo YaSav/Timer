@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.31101.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Timmer", "Timmer\Timmer.csproj", "{A55AAF80-26E3-4853-84C1-75C5BF6F6318}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Timer", "Timer\Timer.csproj", "{AC7523DA-E0B6-407A-AF88-DB865E79F4BC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +11,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{A55AAF80-26E3-4853-84C1-75C5BF6F6318}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{A55AAF80-26E3-4853-84C1-75C5BF6F6318}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{A55AAF80-26E3-4853-84C1-75C5BF6F6318}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{A55AAF80-26E3-4853-84C1-75C5BF6F6318}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC7523DA-E0B6-407A-AF88-DB865E79F4BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC7523DA-E0B6-407A-AF88-DB865E79F4BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC7523DA-E0B6-407A-AF88-DB865E79F4BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC7523DA-E0B6-407A-AF88-DB865E79F4BC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

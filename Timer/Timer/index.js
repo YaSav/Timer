@@ -4,23 +4,24 @@
 
     function startpauseTimer() {
         var innerText = document.getElementById("startbtn").innerHTML;
-        if (innerText === "Start") {
+        if (innerText === "start") {
             timer.start();
             showing = setInterval(showTime, 100);
-            document.getElementById("startbtn").innerHTML = "Pause";
+            document.getElementById("startbtn").innerHTML = "start";
         }
         else {
             timer.pause();
             clearInterval(showing);
-            document.getElementById("startbtn").innerHTML = "Start";
+            document.getElementById("startbtn").innerHTML = "start";
         }
     }
 
     function stopTimer() {
-        timer.reset();
+        timer.stop();
         clearInterval(showing);
-        document.getElementById("startbtn").innerHTML = "Start";
+        document.getElementById("startbtn").innerHTML = "start";
         document.getElementById("time").innerHTML = "00:00:00";
+        document.getElementById("time").style.color = '#0b1638'
     }
 
     function inputGoal() {
@@ -28,10 +29,14 @@
             document.getElementById('mininp').value * 60000 +
             document.getElementById('secinp').value * 1000;
         timer.setGoalTime(goalTime);
+        document.getElementById("time").style.color = '#32a311';
     }
 
     function showTime() {
         var milisecond = timer.getMiliseconds();
+        if (milisecond > timer.getGoalTime() && timer.getGoalTime() !== 0) {            
+            document.getElementById("time").style.color = '#f0300e';
+        }
         var second = (Math.floor(milisecond / 1000)) % 60;
         if (second < 10) second = "0" + second;
         var minute = (Math.floor(milisecond / 60000)) % 60;

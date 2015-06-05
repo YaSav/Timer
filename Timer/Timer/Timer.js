@@ -2,16 +2,14 @@
     var startTime = 0;
     var allTime = 0;
     var goalTime = 0;
-    isActive = false;
-    isReached = false;
+    var isActive = false;
 
     this.stop = function () {
         isActive = false;
-        isReached = false;
         startTime = 0;
         allTime = 0;
         goalTime = 0;
-    }
+    };
 
     this.start = function () {
         if (isActive) {
@@ -19,7 +17,7 @@
         }
         startTime = Date.now();
         isActive = true;
-    }
+    };
 
     this.pause = function () {
 
@@ -29,21 +27,19 @@
         isActive = false;
         allTime = allTime + (Date.now() - startTime);
         startTime = 0;
-    }
+    };
 
     this.getMiliseconds = function () {
-        var time = allTime + Date.now() - startTime;
-        if (time > goalTime && goalTime!==0) {
-            isReached = true;
-            alert('Syka');
-        }
-        return time;
-    }
+        return allTime + Date.now() - startTime;
+    };
+
+    this.getGoalTime = function () {
+        return goalTime;
+    };
 
     this.setGoalTime = function (time) {
         goalTime = time;
-        alert(goalTime)
-    }
+    };
 
 
-}
+};
