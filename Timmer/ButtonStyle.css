@@ -1,0 +1,37 @@
+﻿button {
+    background: #d93470;
+    background-image: -webkit-linear-gradient(top, #d93470, #992940);
+    background-image: -moz-linear-gradient(top, #d93470, #992940);
+    background-image: -ms-linear-gradient(top, #d93470, #992940);
+    background-image: -o-linear-gradient(top, #d93470, #992940);
+    background-image: linear-gradient(to bottom, #d93470, #992940);
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: Georgia;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    outline: none;
+}
+
+    button:hover {
+        background: #f0300e;
+        background-image: -webkit-linear-gradient(top, #f0300e, #eb1111);
+        background-image: -moz-linear-gradient(top, #f0300e, #eb1111);
+        background-image: -ms-linear-gradient(top, #f0300e, #eb1111);
+        background-image: -o-linear-gradient(top, #f0300e, #eb1111);
+        background-image: linear-gradient(to bottom, #f0300e, #eb1111);
+        text-decoration: none;
+    }
+
+p {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 30px;
+    color: #0b1638;
+}   
+
+div {
+    text-align: center;
+}
