@@ -7,7 +7,7 @@
         if (innerText === "start") {
             timer.start();
             showing = setInterval(showTime, 100);
-            document.getElementById("startbtn").innerHTML = "start";
+            document.getElementById("startbtn").innerHTML = "pause";
         }
         else {
             timer.pause();
@@ -21,7 +21,7 @@
         clearInterval(showing);
         document.getElementById("startbtn").innerHTML = "start";
         document.getElementById("time").innerHTML = "00:00:00";
-        document.getElementById("time").style.color = '#0b1638'
+        document.getElementById("time").style.color = '#ccc2a6'
     }
 
     function inputGoal() {
