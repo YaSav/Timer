@@ -1,6 +1,0 @@
-D:\Універ)))\3 курс\шарпік\Timmer\Timmer\bin\Timmer.dll.config
-D:\Універ)))\3 курс\шарпік\Timmer\Timmer\bin\Timmer.dll
-D:\Універ)))\3 курс\шарпік\Timmer\Timmer\bin\Timmer.pdb
-D:\Універ)))\3 курс\шарпік\Timmer\Timmer\obj\Debug\Timmer.csprojResolveAssemblyReference.cache
-D:\Універ)))\3 курс\шарпік\Timmer\Timmer\obj\Debug\Timmer.dll
-D:\Універ)))\3 курс\шарпік\Timmer\Timmer\obj\Debug\Timmer.pdb
