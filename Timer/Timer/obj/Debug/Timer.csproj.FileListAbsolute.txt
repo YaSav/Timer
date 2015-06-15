@@ -1,0 +1,6 @@
+C:\Users\Yarka\Desktop\TimerJS\Timer\Timer\bin\Timer.dll.config
+C:\Users\Yarka\Desktop\TimerJS\Timer\Timer\bin\Timer.dll
+C:\Users\Yarka\Desktop\TimerJS\Timer\Timer\bin\Timer.pdb
+C:\Users\Yarka\Desktop\TimerJS\Timer\Timer\obj\Debug\Timer.csprojResolveAssemblyReference.cache
+C:\Users\Yarka\Desktop\TimerJS\Timer\Timer\obj\Debug\Timer.dll
+C:\Users\Yarka\Desktop\TimerJS\Timer\Timer\obj\Debug\Timer.pdb
